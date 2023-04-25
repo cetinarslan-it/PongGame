@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Multiplayer Pong Game</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      canvas {
+        display: block;
+        margin: 0 auto;
+        border: 2px solid black;
+        box-shadow: 10px 5px 20px gray;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Multiplayer Pong Game</h1>
+    <canvas id="canvas" width="800" height="600"></canvas>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      const socket = io();
+    </script>
+    <!-- <script src="./objects.js"></script> -->
+    <script src="./game.js"></script>
+  </body>
+</html>
