@@ -79,8 +79,8 @@ function draw() {
   // Draw score
   ctx.font = "22px Arial";
   ctx.fillStyle = "#0095DD";
-  ctx.fillText(`Player 1: ${player1.score}`, 8, 30);
-  ctx.fillText(`Player 2: ${player2.score}`, canvas.width - 115, 30);
+  ctx.fillText(`Player 1: ${player1.score}`, 250, 30);
+  ctx.fillText(`Player 2: ${player2.score}`, canvas.width - 370, 30);
 }
 
 // Start game when server signals that both players have connected
