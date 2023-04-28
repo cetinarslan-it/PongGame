@@ -5,9 +5,9 @@ body {
   background-color: ghostwhite;
 }
 
-h1 {
+p {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 5vh;
+  font-size: 3vw;
+  font-weight: bold;
 }
-
-
